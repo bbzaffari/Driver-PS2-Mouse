@@ -1,0 +1,591 @@
+
+# End time: 16:57:14 on Jul 02,2025, Elapsed time: 0:06:14
+# Errors: 6, Warnings: 0
+# vsim -wlf /sim/tb_ps2_driver -voptargs=""+acc"" -wlfdeleteonquit tb_ps2_driver 
+# Start time: 16:57:14 on Jul 02,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_ps2_driver(tb)#1
+# Loading work.ps2_mouse(rtl)#1
+# ** Note: [TB TX] - SENDING N'0'#
+#    Time: 2 us  Iteration: 0  Instance: /tb_ps2_driver
+# ** Note: [TB TX] - data_to_send = 
+# 
+#   Byte 0: '0'00000000'U''1'
+# 
+#   Byte 1: '0'00000101'U''1'
+# 
+#   Byte 2: '0'00000010'U''1'
+#    Time: 2 us  Iteration: 0  Instance: /tb_ps2_driver
+# ** Note: ==============================================================================================================
+#    Time: 2 us  Iteration: 0  Instance: /tb_ps2_driver
+# ** Note: [TB TX] - Bit enviado(0) = ''0''
+#    Time: 2 us  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] START BIT detectado, transiÃ§Ã£o para RECEIVING
+#    Time: 2005 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [DRIVER] Bit recebido (0) = ''0''
+#    Time: 2045 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(1) = ''0''
+#    Time: 2060 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (1) = ''0''
+#    Time: 2085 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(2) = ''0''
+#    Time: 2100 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (2) = ''0''
+#    Time: 2125 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(3) = ''0''
+#    Time: 2140 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (3) = ''0''
+#    Time: 2165 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(4) = ''0''
+#    Time: 2180 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (4) = ''0''
+#    Time: 2205 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(5) = ''0''
+#    Time: 2220 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (5) = ''0''
+#    Time: 2245 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(6) = ''0''
+#    Time: 2260 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (6) = ''0''
+#    Time: 2285 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(7) = ''0''
+#    Time: 2300 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (7) = ''0''
+#    Time: 2325 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(8) = ''0''
+#    Time: 2340 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit de paridade recebido = ''0''
+#    Time: 2365 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [DRIVER] Quantidade de bits 1 (count_ones) = 0
+#    Time: 2365 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [DRIVER] ERRO de paridade! delay calculado = '0'
+#    Time: 2365 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(9) = ''U''
+#    Time: 2380 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 2405 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(10) = ''1''
+#    Time: 2420 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 2445 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(11) = ''0''
+#    Time: 2460 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 2485 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(12) = ''0''
+#    Time: 2500 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 2525 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(13) = ''0''
+#    Time: 2540 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 2565 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(14) = ''0''
+#    Time: 2580 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 2605 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(15) = ''0''
+#    Time: 2620 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 2645 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(16) = ''0''
+#    Time: 2660 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 2685 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(17) = ''1''
+#    Time: 2700 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 2725 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(18) = ''0''
+#    Time: 2740 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 2765 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(19) = ''1''
+#    Time: 2780 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 2805 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(20) = ''U''
+#    Time: 2820 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 2845 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(21) = ''1''
+#    Time: 2860 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 2885 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(22) = ''0''
+#    Time: 2900 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 2925 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(23) = ''0''
+#    Time: 2940 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 2965 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(24) = ''0''
+#    Time: 2980 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 3005 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(25) = ''0''
+#    Time: 3020 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 3045 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(26) = ''0''
+#    Time: 3060 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 3085 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(27) = ''0''
+#    Time: 3100 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 3125 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(28) = ''0''
+#    Time: 3140 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 3165 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(29) = ''1''
+#    Time: 3180 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 3205 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(30) = ''0''
+#    Time: 3220 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 3245 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(31) = ''U''
+#    Time: 3260 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 3285 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(32) = ''1''
+#    Time: 3300 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 3325 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Envio finalizado
+#    Time: 3340 ns  Iteration: 2  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 3365 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 3405 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 3445 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 3485 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 3525 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 3565 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 3605 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 3645 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 3685 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - SENDING N'0'#
+#    Time: 5340 ns  Iteration: 0  Instance: /tb_ps2_driver
+# ** Note: [TB TX] - data_to_send = 
+# 
+#   Byte 0: '0'11100000'1''1'
+# 
+#   Byte 1: '0'00000101'1''1'
+# 
+#   Byte 2: '0'00000010'0''1'
+#    Time: 5340 ns  Iteration: 0  Instance: /tb_ps2_driver
+# ** Note: ==============================================================================================================
+#    Time: 5340 ns  Iteration: 0  Instance: /tb_ps2_driver
+# ** Note: [TB TX] - Bit enviado(0) = ''0''
+#    Time: 5340 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] START BIT detectado, transiÃ§Ã£o para RECEIVING
+#    Time: 5365 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(1) = ''1''
+#    Time: 5380 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (0) = ''1''
+#    Time: 5405 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(2) = ''1''
+#    Time: 5420 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (1) = ''1''
+#    Time: 5445 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(3) = ''1''
+#    Time: 5460 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (2) = ''1''
+#    Time: 5485 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(4) = ''0''
+#    Time: 5500 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (3) = ''0''
+#    Time: 5525 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(5) = ''0''
+#    Time: 5540 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (4) = ''0''
+#    Time: 5565 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(6) = ''0''
+#    Time: 5580 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (5) = ''0''
+#    Time: 5605 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(7) = ''0''
+#    Time: 5620 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (6) = ''0''
+#    Time: 5645 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(8) = ''0''
+#    Time: 5660 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (7) = ''0''
+#    Time: 5685 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(9) = ''1''
+#    Time: 5700 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit de paridade recebido = ''1''
+#    Time: 5725 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [DRIVER] Quantidade de bits 1 (count_ones) = 1
+#    Time: 5725 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [DRIVER] ERRO de paridade! delay calculado = '0'
+#    Time: 5725 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(10) = ''1''
+#    Time: 5740 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 5765 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(11) = ''0''
+#    Time: 5780 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 5805 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(12) = ''0''
+#    Time: 5820 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 5845 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(13) = ''0''
+#    Time: 5860 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 5885 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(14) = ''0''
+#    Time: 5900 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 5925 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(15) = ''0''
+#    Time: 5940 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 5965 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(16) = ''0''
+#    Time: 5980 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 6005 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(17) = ''1''
+#    Time: 6020 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 6045 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(18) = ''0''
+#    Time: 6060 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 6085 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(19) = ''1''
+#    Time: 6100 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 6125 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(20) = ''1''
+#    Time: 6140 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 6165 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(21) = ''1''
+#    Time: 6180 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 6205 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(22) = ''0''
+#    Time: 6220 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 6245 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(23) = ''0''
+#    Time: 6260 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 6285 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(24) = ''0''
+#    Time: 6300 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 6325 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(25) = ''0''
+#    Time: 6340 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 6365 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(26) = ''0''
+#    Time: 6380 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 6405 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(27) = ''0''
+#    Time: 6420 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 6445 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(28) = ''0''
+#    Time: 6460 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 6485 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(29) = ''1''
+#    Time: 6500 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 6525 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(30) = ''0''
+#    Time: 6540 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 6565 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(31) = ''0''
+#    Time: 6580 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 6605 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(32) = ''1''
+#    Time: 6620 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 6645 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Envio finalizado
+#    Time: 6660 ns  Iteration: 2  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 6685 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 6725 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 6765 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 6805 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 6845 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 6885 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 6925 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 6965 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 7005 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [DRIVER] ERRO de paridade no byte 0
+#    Time: 7045 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - SENDING N'0'#
+#    Time: 8660 ns  Iteration: 0  Instance: /tb_ps2_driver
+# ** Note: [TB TX] - data_to_send = 
+# 
+#   Byte 0: '0'11100000'0''1'
+# 
+#   Byte 1: '0'00000101'1''1'
+# 
+#   Byte 2: '0'00000010'0''1'
+#    Time: 8660 ns  Iteration: 0  Instance: /tb_ps2_driver
+# ** Note: ==============================================================================================================
+#    Time: 8660 ns  Iteration: 0  Instance: /tb_ps2_driver
+# ** Note: [TB TX] - Bit enviado(0) = ''0''
+#    Time: 8660 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] START BIT detectado, transiÃ§Ã£o para RECEIVING
+#    Time: 8685 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(1) = ''1''
+#    Time: 8700 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (0) = ''1''
+#    Time: 8725 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(2) = ''1''
+#    Time: 8740 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (1) = ''1''
+#    Time: 8765 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(3) = ''1''
+#    Time: 8780 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (2) = ''1''
+#    Time: 8805 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(4) = ''0''
+#    Time: 8820 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (3) = ''0''
+#    Time: 8845 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(5) = ''0''
+#    Time: 8860 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (4) = ''0''
+#    Time: 8885 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(6) = ''0''
+#    Time: 8900 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (5) = ''0''
+#    Time: 8925 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(7) = ''0''
+#    Time: 8940 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (6) = ''0''
+#    Time: 8965 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(8) = ''0''
+#    Time: 8980 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (7) = ''0''
+#    Time: 9005 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(9) = ''0''
+#    Time: 9020 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit de paridade recebido = ''0''
+#    Time: 9045 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [DRIVER] Quantidade de bits 1 (count_ones) = 1
+#    Time: 9045 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(10) = ''1''
+#    Time: 9060 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] STOP bit correto recebido. byte_count = 0
+#    Time: 9085 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: ======================================================= 
+# 
+# [DRIVER] BYTE 0 END
+# 
+# 11100000
+# 
+#  ======================================================= 
+#    Time: 9085 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(11) = ''0''
+#    Time: 9100 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] START BIT detectado, transiÃ§Ã£o para RECEIVING
+#    Time: 9125 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(12) = ''0''
+#    Time: 9140 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (0) = ''0''
+#    Time: 9165 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(13) = ''0''
+#    Time: 9180 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (1) = ''0''
+#    Time: 9205 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(14) = ''0''
+#    Time: 9220 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (2) = ''0''
+#    Time: 9245 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(15) = ''0''
+#    Time: 9260 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (3) = ''0''
+#    Time: 9285 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(16) = ''0''
+#    Time: 9300 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (4) = ''0''
+#    Time: 9325 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(17) = ''1''
+#    Time: 9340 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (5) = ''1''
+#    Time: 9365 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(18) = ''0''
+#    Time: 9380 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (6) = ''0''
+#    Time: 9405 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(19) = ''1''
+#    Time: 9420 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (7) = ''1''
+#    Time: 9445 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(20) = ''1''
+#    Time: 9460 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit de paridade recebido = ''1''
+#    Time: 9485 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [DRIVER] Quantidade de bits 1 (count_ones) = 0
+#    Time: 9485 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(21) = ''1''
+#    Time: 9500 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] STOP bit correto recebido. byte_count = 1
+#    Time: 9525 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: ======================================================= 
+# 
+# [DRIVER] BYTE 1 END
+# 
+# 00000101
+# 
+#  ======================================================= 
+#    Time: 9525 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(22) = ''0''
+#    Time: 9540 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] START BIT detectado, transiÃ§Ã£o para RECEIVING
+#    Time: 9565 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(23) = ''0''
+#    Time: 9580 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (0) = ''0''
+#    Time: 9605 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(24) = ''0''
+#    Time: 9620 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (1) = ''0''
+#    Time: 9645 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(25) = ''0''
+#    Time: 9660 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (2) = ''0''
+#    Time: 9685 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(26) = ''0''
+#    Time: 9700 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (3) = ''0''
+#    Time: 9725 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(27) = ''0''
+#    Time: 9740 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (4) = ''0''
+#    Time: 9765 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(28) = ''0''
+#    Time: 9780 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (5) = ''0''
+#    Time: 9805 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(29) = ''1''
+#    Time: 9820 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (6) = ''1''
+#    Time: 9845 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(30) = ''0''
+#    Time: 9860 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit recebido (7) = ''0''
+#    Time: 9885 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(31) = ''0''
+#    Time: 9900 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] Bit de paridade recebido = ''0''
+#    Time: 9925 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [DRIVER] Quantidade de bits 1 (count_ones) = 1
+#    Time: 9925 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Bit enviado(32) = ''1''
+#    Time: 9940 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] STOP bit correto recebido. byte_count = 2
+#    Time: 9965 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: ======================================================= 
+# 
+# [DRIVER] BYTE 2 END
+# 
+# 00000010
+# 
+#  ======================================================= 
+#    Time: 9965 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [DRIVER] FRAME COMPLETO RECEBIDO:
+# 
+# > Byte 0 (Controle) : 
+# 
+#  LR = 11
+# 
+#  10 = 10
+# 
+#  XS = '0'
+# 
+#  YS = '0'
+# 
+#  XV = '0'
+# 
+#  YV = '0'
+# 
+# > Byte 1 (X) : 00000101
+# 
+# > Byte 2 (Y) : 00000010
+# 
+# 
+#    Time: 9965 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [TB TX] - Envio finalizado
+#    Time: 9980 ns  Iteration: 2  Instance: /tb_ps2_driver
+# ** Note: [DRIVER] SEND - preparando saÃ­da, enable = '1'
+#    Time: 10005 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Note: [DRIVER] SEND - COMPLETO RECEBIDO:
+# 
+# > Byte 0 (Controle) : 
+# 
+#  LR = 11
+# 
+#  10 = 10
+# 
+#  XS = '0'
+# 
+#  YS = '0'
+# 
+#  XV = '0'
+# 
+#  YV = '0'
+# 
+# > Byte 1 (X) : 00000101
+# 
+# > Byte 2 (Y) : 00000010
+# 
+# 
+#    Time: 10005 ns  Iteration: 0  Instance: /tb_ps2_driver/UUT
+# ** Error: [TB RX] LR CORRETO
+#    Time: 10005 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Error: [TB RX] XS CORRETO
+#    Time: 10005 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Error: [TB RX] YS CORRETO
+#    Time: 10005 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Error: [TB RX] XV CORRETO
+#    Time: 10005 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Error: [TB RX] YV CORRETO
+#    Time: 10005 ns  Iteration: 1  Instance: /tb_ps2_driver
+# ** Failure: Fim da simulaÃ§Ã£o.
+#    Time: 10005 ns  Iteration: 1  Process: /tb_ps2_driver/RX File: tb_ps2_driver.vhd
+# Break in Process RX at tb_ps2_driver.vhd line 224
+

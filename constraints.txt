@@ -1,0 +1,52 @@
+## ===================================
+## Projeto: ps2_mouse
+## Autor: Bruno Bavaresco Zaffari
+## Constraints SDC
+## ===================================
+
+## DEFINE VARIÁVEIS
+set sdc_version 1.5
+set_load_unit -picofarads 1
+
+## ===============================
+## ENTRADAS
+## ===============================
+
+# clock_in
+set_input_transition -min -rise 0.003 [get_ports clock_in]
+set_input_transition -max -rise 0.16  [get_ports clock_in]
+set_input_transition -min -fall 0.003 [get_ports clock_in]
+set_input_transition -max -fall 0.16  [get_ports clock_in]
+
+# reset_in
+set_input_transition -min -rise 0.003 [get_ports reset_in]
+set_input_transition -max -rise 0.16  [get_ports reset_in]
+set_input_transition -min -fall 0.003 [get_ports reset_in]
+set_input_transition -max -fall 0.16  [get_ports reset_in]
+
+# ps2_clock
+set_input_transition -min -rise 0.003 [get_ports ps2_clock]
+set_input_transition -max -rise 0.16  [get_ports ps2_clock]
+set_input_transition -min -fall 0.003 [get_ports ps2_clock]
+set_input_transition -max -fall 0.16  [get_ports ps2_clock]
+
+# ps2_data
+set_input_transition -min -rise 0.003 [get_ports ps2_data]
+set_input_transition -max -rise 0.16  [get_ports ps2_data]
+set_input_transition -min -fall 0.003 [get_ports ps2_data]
+set_input_transition -max -fall 0.16  [get_ports ps2_data]
+
+## ===============================
+## CLOCK
+## ===============================
+
+# Clock principal de 100 MHz (10 ns)
+create_clock -name clock_in -period 10 [get_ports clock_in]
+
+## ===============================
+## SAÍDAS
+## ===============================
+
+# Considera-se carga leve para todos os sinais de saída
+set_load -min 0.0014 [get_ports {LR XV YV XS YS X Y enable}]
+set_load -max 0.32   [get_ports {LR XV YV XS YS X Y enable}]

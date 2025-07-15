@@ -1,0 +1,391 @@
+@genus:root: 8> syn_generic -effort low
+##Generic Timing Info for library domain: _default_ typical gate delay: 25.0 ps std_slew: 9.2 ps std_load: 6.0 fF
+Starting mux data reorder optimization [v1.0] (stage: pre_to_gen_setup, startdef: ps2_mouse, recur: true)
+Completed mux data reorder optimization (accepts: 0, rejects: 0, runtime: 0.002s)
+Info    : Synthesizing. [SYNTH-1]
+        : Synthesizing 'ps2_mouse' to generic gates using 'low' effort.
+PBS_Generic-Start - Elapsed_Time 0, CPU_Time 0.0
+stamp 'PBS_Generic-Start' being created for table 'pbs_debug'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:17(00:02:27) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:19:14 (Jul02) |  474.9 MB | PBS_Generic-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 8 * 1   (id: pbs_debug, time_info v1.57)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+TNS Restructuring config: no_value at stage: generic applied.
+Info    : Partition Based Synthesis execution skipped. [PHYS-752]
+        : 'low' effort synthesis done in non-distributed manner. Set synthesize -effort to 'medium' or 'high' to turn on distributed optimization.
+Starting mux data reorder optimization [v1.0] (stage: pre_to_gen_setup, startdef: ps2_mouse, recur: true)
+Completed mux data reorder optimization (accepts: 0, rejects: 0, runtime: 0.001s)
+Starting mux data reorder optimization [v1.0] (stage: post_to_gen_setup, startdef: ps2_mouse, recur: true)
+Completed mux data reorder optimization (accepts: 0, rejects: 0, runtime: 0.001s)
+Running Unified Mux Engine Tricks...
+Completed Unified Mux Engine Tricks
+--------------------------------------------
+| Trick | Accepts | Rejects | Runtime (ms) |
+--------------------------------------------
+--------------------------------------------
+Starting infer macro optimization [v1.0] (stage: pre_rtlopt, startdef: ps2_mouse, recur: true)
+Completed infer macro optimization (accepts: 0, rejects: 2, runtime: 0.000s)
+Starting decode mux sandwich optimization [v2.0] (stage: pre_rtlopt, startdef: ps2_mouse, recur: true)
+Completed decode mux sandwich optimization (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting decode mux optimization [v1.0] (stage: pre_rtlopt, startdef: ps2_mouse, recur: true)
+Completed decode mux optimization (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting chop wide muxes [v1.0] (stage: pre_rtlopt, startdef: ps2_mouse, recur: true)
+Completed chop wide muxes (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting common data mux cascade opt [v1.0] (stage: pre_rtlopt, startdef: ps2_mouse, recur: true)
+Completed common data mux cascade opt (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting mux input consolidation [v1.0] (stage: pre_rtlopt, startdef: ps2_mouse, recur: true)
+Completed mux input consolidation (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting priority mux optimization [v1.0] (stage: pre_rtlopt, startdef: ps2_mouse, recur: true)
+Completed priority mux optimization (accepts: 0, rejects: 0, runtime: 0.013s)
+Starting constant-data mux optimization [v1.0] (stage: pre_rtlopt, startdef: ps2_mouse, recur: true)
+Completed constant-data mux optimization (accepts: 0, rejects: 0, runtime: 0.001s)
+Starting chain-to-tree inequality transform [v2.0] (stage: pre_rtlopt, startdef: ps2_mouse, recur: true)
+Completed chain-to-tree inequality transform (accepts: 0, rejects: 0, runtime: 0.001s)
+Starting reconvergence optimization [v1.0] (stage: pre_rtlopt, startdef: ps2_mouse, recur: true)
+Completed reconvergence optimization (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting logic restructure optimization [v1.0] (stage: pre_rtlopt, startdef: ps2_mouse, recur: true)
+Completed logic restructure optimization (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting common select mux optimization [v1.0] (stage: pre_rtlopt, startdef: ps2_mouse, recur: true)
+Completed common select mux optimization (accepts: 0, rejects: 0, runtime: 0.001s)
+Starting identity transform [v3.0] (stage: pre_rtlopt, startdef: ps2_mouse, recur: true)
+Completed identity transform (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting reduce operator chain [v1.0] (stage: pre_rtlopt, startdef: ps2_mouse, recur: true)
+Completed reduce operator chain (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting common data mux cascade opt [v1.0] (stage: pre_rtlopt, startdef: ps2_mouse, recur: true)
+Completed common data mux cascade opt (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting mux input consolidation [v1.0] (stage: pre_rtlopt, startdef: ps2_mouse, recur: true)
+Completed mux input consolidation (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting optimize datapath elements [v1.0] (stage: pre_rtlopt, startdef: ps2_mouse, recur: true)
+Completed optimize datapath elements (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting datapath recasting [v1.0] (stage: pre_rtlopt, startdef: ps2_mouse, recur: true)
+Completed datapath recasting (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting clip mux common data inputs [v1.0] (stage: pre_rtlopt, startdef: ps2_mouse, recur: true)
+Completed clip mux common data inputs (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting clip the non-user hierarchies [v2.0] (stage: pre_rtlopt, startdef: ps2_mouse, recur: true)
+Completed clip the non-user hierarchies (accepts: 0, rejects: 0, runtime: 0.000s)
+Running Unified Mux Engine Tricks...
+Completed Unified Mux Engine Tricks
+--------------------------------------------------
+| Trick       | Accepts | Rejects | Runtime (ms) |
+--------------------------------------------------
+| ume_runtime |       0 |       0 |         0.00 |
+--------------------------------------------------
+Number of big hc bmuxes before = 0
+Info    : Pre-processed datapath logic. [DPOPT-6]
+        : No pre-processing optimizations applied to datapath logic in 'ps2_mouse'.
+Info    : Optimizing datapath logic. [DPOPT-1]
+        : Optimizing datapath logic in 'ps2_mouse'.
+Info    : Implementing datapath configurations. [DPOPT-3]
+        : Implementing datapath configurations for 'CDN_DP_region_0_0'
+CSAGen Prep Share:0 Re-Write:0 Speculation: 0
+MaxCSA: Successfully built Maximal CSA Expression Expr0
+MaxCSA: Successfully built Maximal CSA Expression Expr1
+MaxCSA: Successfully built Maximal CSA Expression Expr2
+MaxCSA: Successfully built Maximal CSA Expression Expr3
+CDN_DP_region_0_0 level = 0 loads = 0 drivers = 0
+CDN_DP_region_0_0_c0 in ps2_mouse: area: 879633414 ,dp = 8 mux = 18 sg = slow         worst_clk_period: -1.0000
+    wns: 0  norm_wns:  -1.0000
+    fail_endp: -1
+    tns:  0  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ skipped
+CDN_DP_region_0_0_c1 in ps2_mouse: area: 809074584 ,dp = 7 mux = 18 sg = fast         worst_clk_period: -1.0000
+    wns: 0  norm_wns:  -1.0000
+    fail_endp: -1
+    tns:  0  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_0_c2 in ps2_mouse: area: 809074584 ,dp = 7 mux = 18 sg = very_slow    worst_clk_period: -1.0000
+    wns: 0  norm_wns:  -1.0000
+    fail_endp: -1
+    tns:  0  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_0_c3 in ps2_mouse: area: 809074584 ,dp = 7 mux = 18 sg = very_fast    worst_clk_period: -1.0000
+    wns: 0  norm_wns:  -1.0000
+    fail_endp: -1
+    tns:  0  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_0_c4 in ps2_mouse: area: 809074584 ,dp = 7 mux = 18 sg = very_fast    worst_clk_period: -1.0000
+    wns: 0  norm_wns:  -1.0000
+    fail_endp: -1
+    tns:  0  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_0_c5 in ps2_mouse: area: 809074584 ,dp = 7 mux = 18 sg = very_fast    worst_clk_period: -1.0000
+    wns: 0  norm_wns:  -1.0000
+    fail_endp: -1
+    tns:  0  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_0_c6 in ps2_mouse: area: 809074584 ,dp = 7 mux = 18 sg = very_fast    worst_clk_period: -1.0000
+    wns: 0  norm_wns:  -1.0000
+    fail_endp: -1
+    tns:  0  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_0_c7 in ps2_mouse: area: 879633414 ,dp = 8 mux = 18 sg = very_fast    worst_clk_period: -1.0000
+    wns: 0  norm_wns:  -1.0000
+    fail_endp: -1
+    tns:  0  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+
+Best config: CDN_DP_region_0_0_c6 in ps2_mouse: area: 809074584 ,dp = 7 mux = 18 sg = very_fast    worst_clk_period: -1.0000
+    wns: 0  norm_wns:  -1.0000
+    fail_endp: -1
+    tns:  0  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+  Smallest config area : 809074584.  Fastest config wns;  0
+##>+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>Summary table of configs (Best config is CDN_DP_region_0_0_c6)
+##>+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>                     0                  1                  2                  3                  4                  5                  6                  7
+##>+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>           Area        879633414          809074584          809074584          809074584          809074584          809074584          809074584          879633414
+##>            WNS         +9515.60           +9515.60           +9515.60           +9515.60           +9515.60           +9515.60           +9515.60           +9515.60
+##>            TNS                0                  0                  0                  0                  0                  0                  0                  0
+##>    Num Rewrite                0                  0                  0                  0                  0                  0                  0                  0
+##>     Num Factor                0                  0                  0                  0                  0                  0                  0                  0
+##>      Num Share                0                  0                  0                  0                  0                  0                  0                  0
+##>   Num CmultCse                0                  0                  0                  0                  0                  0                  0                  0
+##>   Num Downsize                0                  0                  0                  0                  0                  0                  0                  0
+##>  Num Speculate                0                  0                  0                  0                  0                  0                  0                  0
+##>     Runtime(s)                0                  0                  0                  0                  0                  0                  0                  0
++----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>
+##>
+##>+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>Optimization Step DEBUG Table for config CDN_DP_region_0_0_c6
+##>
+##>                          Step                        Area   ( % Chg)        WNS (Change)        TNS (Change)          Runtime (s)        Comment          
+##>+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>createMaxCarrySave              START              879633414 (      )    107383698.00 (        )             0 (        )
+##> datapath_rewrite_one_def       START              879633414 ( +0.00)    107383698.00 (   +0.00)             0 (       0)
+##>  fast_cse_elim                 START              879633414 ( +0.00)    107383698.00 (   +0.00)             0 (       0)
+##>                                  END              860817726 ( -2.14)    107383698.00 (   +0.00)             0 (       0)           0
+##>  fast_cse_elim                 START              860817726 ( +0.00)    107383698.00 (   +0.00)             0 (       0)
+##>                                  END              860817726 ( +0.00)    107383698.00 (   +0.00)             0 (       0)           0
+##>                                  END              860817726 ( -2.14)    107383698.00 (   +0.00)             0 (       0)           0
+##> dpopt_share_one_def            START              860817726 ( +0.00)    107383698.00 (   +0.00)             0 (       0)
+##>                                  END              860817726 ( +0.00)    107383698.00 (   +0.00)             0 (       0)           0
+##> csa_opto                       START              860817726 ( +0.00)    214748364.70 (+107364666.70)             0 (       0)
+##>                                  END              872577531 ( +1.37)    214748364.70 (   +0.00)             0 (       0)           0
+##>                                  END              872577531 ( -0.80)    214748364.70 (+107364666.70)             0 (       0)           0
+##>canonicalize_by_names           START              872577531 ( +0.00)    214748364.70 (   +0.00)             0 (       0)
+##>                                  END              872577531 ( +0.00)    214748364.70 (   +0.00)             0 (       0)           0
+##>datapath_rewrite_post_csa_one_  START              872577531 ( +0.00)    214748364.70 (   +0.00)             0 (       0)
+##>                                  END              872577531 ( +0.00)    214748364.70 (   +0.00)             0 (       0)           0
+##>datapath_csa_factoring_one_gde  START              872577531 ( +0.00)    214748364.70 (   +0.00)             0 (       0)
+##>                                  END              872577531 ( +0.00)    214748364.70 (   +0.00)             0 (       0)           0
+##>dpopt_share_one_def             START              872577531 ( +0.00)    214748364.70 (   +0.00)             0 (       0)
+##>                                  END              872577531 ( +0.00)    214748364.70 (   +0.00)             0 (       0)           0
+##>datapath_rewrite_post_share     START              872577531 ( +0.00)    214748364.70 (   +0.00)             0 (       0)
+##>                                  END              872577531 ( +0.00)    214748364.70 (   +0.00)             0 (       0)           0
+##>dp_combine_const_mult_with_com  START              872577531 ( +0.00)    214748364.70 (   +0.00)             0 (       0)
+##>                                  END              872577531 ( +0.00)    214748364.70 (   +0.00)             0 (       0)           0
+##>dp_operator_level_decompositio  START              872577531 ( +0.00)    214748364.70 (   +0.00)             0 (       0)
+##>                                  END              872577531 ( +0.00)    214748364.70 (   +0.00)             0 (       0)           0
+##>selective_flatten_dp_config     START              872577531 ( +0.00)    214748364.70 (   +0.00)             0 (       0)
+##>                                  END              867873609 ( -0.54)    214748364.70 (   +0.00)             0 (       0)           0
+##>createMaxCarrySave              START              867873609 ( +0.00)    214748364.70 (   +0.00)             0 (       0)
+##> datapath_rewrite_one_def       START              867873609 ( +0.00)    214748364.70 (   +0.00)             0 (       0)
+##>  fast_cse_elim                 START              867873609 ( +0.00)    214748364.70 (   +0.00)             0 (       0)
+##>                                  END              867873609 ( +0.00)    214748364.70 (   +0.00)             0 (       0)           0
+##>  fast_cse_elim                 START              867873609 ( +0.00)    214748364.70 (   +0.00)             0 (       0)
+##>                                  END              867873609 ( +0.00)    214748364.70 (   +0.00)             0 (       0)           0
+##>                                  END              867873609 ( +0.00)    214748364.70 (   +0.00)             0 (       0)           0
+##> dpopt_share_one_def            START              867873609 ( +0.00)    214748364.70 (   +0.00)             0 (       0)
+##>                                  END              867873609 ( +0.00)    214748364.70 (   +0.00)             0 (       0)           0
+##> csa_opto                       START              867873609 ( +0.00)    214748364.70 (   +0.00)             0 (       0)
+##>                                  END              867873609 ( +0.00)    214748364.70 (   +0.00)             0 (       0)           0
+##>                                  END              867873609 ( +0.00)    214748364.70 (   +0.00)             0 (       0)           0
+##>context_based_simplify          START              830242233 ( -4.34)    214748364.70 (   +0.00)             0 (       0)
+##>                                  END              809074584 ( -2.55)    214748364.70 (   +0.00)             0 (       0)           0
+##>group_csa_final_adder_dp        START              809074584 ( +0.00)    214748364.70 (   +0.00)             0 (       0)
+##>                                  END              809074584 ( +0.00)    214748364.70 (   +0.00)             0 (       0)           0
+##>dpopt_flatten_critical_muxes_i  START              809074584 ( +0.00)    214748364.70 (   +0.00)             0 (       0)
+##>                                  END              809074584 ( +0.00)    214748364.70 (   +0.00)             0 (       0)           0
+##>create_score                    START              809074584 ( +0.00)     9515.60 (-214738849.10)             0 (       0)
+##>                                  END              809074584 ( +0.00)     9515.60 (   +0.00)             0 (       0)           0
+##>+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+Committed config: CDN_DP_region_0_0_c6
+Info    : Done implementing datapath configurations. [DPOPT-4]
+        : Selected 'very_fast' configuration 6 for module 'CDN_DP_region_0_0'.
+          Optimizations applied to 'very_fast' configuration:
+            rewriting(0), factoring(0), sharing(0), cmultcse(0), downsizing(0), speculation(0)
+Info    : Done optimizing datapath logic. [DPOPT-2]
+        : Done optimizing datapath logic in 'ps2_mouse'.
+Number of big hc bmuxes after = 0
+Starting logic reduction [v1.0] (stage: post_rtlopt, startdef: ps2_mouse, recur: true)
+Completed logic reduction (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting mux data reorder optimization [v1.0] (stage: post_rtlopt, startdef: ps2_mouse, recur: true)
+Completed mux data reorder optimization (accepts: 0, rejects: 0, runtime: 0.001s)
+Info    : Deleting instances not driving any primary outputs. [GLO-34]
+        : Deleting 3 sequential instances.
+        : Optimizations such as constant propagation or redundancy removal could change the connections so a hierarchical instance does not drive any primary outputs anymore. To see the list of deleted hierarchical instances, set the 'information_level' attribute to 2 or above. If the message is truncated set the message attribute 'truncate' to false to see the complete list. To prevent this optimization, set the 'delete_unloaded_insts' root/subdesign attribute to 'false' or 'preserve' instance attribute to 'true'.
+Info    : Deleting instances not driving any primary outputs. [GLO-34]
+        : Deleting 6 hierarchical instances.
+Starting mux speculation [v1.0] (stage: post_muxopt, startdef: ps2_mouse, recur: true)
+Starting speculation optimization
+Completed speculation optimization (accepts:0)
+Completed mux speculation (accepts: 0, rejects: 0, runtime: 0.014s)
+==================================
+Stage : to_generic
+==================================
+  =================
+   Message Summary
+  =================
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+|    Id    |  Sev   |Count |                                                          Message Text                                                           |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+| CDFG-370 |Warning |    2 |Type conversion truncates constant value.                                                                                        |
+| CDFG-738 |Info    |    4 |Common subexpression eliminated.                                                                                                 |
+| CDFG-739 |Info    |    4 |Common subexpression kept.                                                                                                       |
+| CDFG-771 |Info    |    1 |Replaced logic with a constant value.                                                                                            |
+| CDFG-818 |Warning |    1 |Using default parameter value for module elaboration.                                                                            |
+| CWD-19   |Info    |   49 |An implementation was inferred.                                                                                                  |
+| DPOPT-1  |Info    |    1 |Optimizing datapath logic.                                                                                                       |
+| DPOPT-2  |Info    |    1 |Done optimizing datapath logic.                                                                                                  |
+| DPOPT-3  |Info    |    1 |Implementing datapath configurations.                                                                                            |
+| DPOPT-4  |Info    |    1 |Done implementing datapath configurations.                                                                                       |
+| DPOPT-6  |Info    |    1 |Pre-processed datapath logic.                                                                                                    |
+| DPOPT-10 |Info    |    2 |Optimized a mux chain.                                                                                                           |
+| ELAB-1   |Info    |    1 |Elaborating Design.                                                                                                              |
+| ELAB-3   |Info    |    1 |Done Elaborating Design.                                                                                                         |
+| ELAB-5   |Info    |    1 |Binding to architecture.                                                                                                         |
+| GB-6     |Info    |   18 |A datapath component has been ungrouped.                                                                                         |
+| GLO-34   |Info    |    2 |Deleting instances not driving any primary outputs.                                                                              |
+|          |        |      |Optimizations such as constant propagation or redundancy removal could change the connections so a hierarchical instance does    |
+|          |        |      | not drive any primary outputs anymore. To see the list of deleted hierarchical instances, set the 'information_level' attribute |
+|          |        |      | to 2 or above. If the message is truncated set the message attribute 'truncate' to false to see the complete list. To prevent   |
+|          |        |      | this optimization, set the 'delete_unloaded_insts' root/subdesign attribute to 'false' or 'preserve' instance attribute to      |
+|          |        |      | 'true'.                                                                                                                         |
+| LBR-40   |Info    | 4369 |An unsupported construct was detected in this library.                                                                           |
+|          |        |      |Check to see if this construct is really needed for synthesis. Many liberty constructs are not actually required.                |
+| LBR-41   |Info    |    2 |An output library pin lacks a function attribute.                                                                                |
+|          |        |      |If the remainder of this library cell's semantic checks are successful, it will be considered as a timing-model                  |
+|          |        |      | (because one of its outputs does not have a valid function.                                                                     |
+| LBR-162  |Info    |  217 |Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed.                                                          |
+|          |        |      |Setting the 'timing_sense' to non_unate.                                                                                         |
+| LBR-412  |Info    |    1 |Created nominal operating condition.                                                                                             |
+|          |        |      |The nominal operating condition is represented, either by the nominal PVT values specified in the library source                 |
+|          |        |      | (via nom_process,nom_voltage and nom_temperature respectively), or by the default PVT values (1.0,1.0,1.0).                     |
+| LBR-518  |Info    |    2 |Missing a function attribute in the output pin definition.                                                                       |
+| LBR-525  |Warning |    1 |Missing clock pin in the sequential cell.                                                                                        |
+|          |        |      |Sequential timing checks, such as 'setup_rising' or 'hold_rising', on flop and latch cells require a clock pin. Verify that the  |
+|          |        |      | 'clock' attribute of the clock pin is set to 'true' or that the clock pin has a 'clocked_on' attribute.                         |
+| LBR-526  |Warning |    1 |Missing sequential block in the sequential cell.                                                                                 |
+| LBR-531  |Warning | 3464 |Invalid value specified.                                                                                                         |
+|          |        |      |Invalid value found for the attribute. Correct as per Liberty syntax.                                                            |
+| PHYS-752 |Info    |    1 |Partition Based Synthesis execution skipped.                                                                                     |
+| SYNTH-1  |Info    |    1 |Synthesizing.                                                                                                                    |
+| TIM-1000 |Info    |    1 |Multimode clock gating check is disabled.                                                                                        |
+| VHDL-639 |Warning |    5 |Initial values are ignored for synthesis.                                                                                        |
+|          |        |      |The specified construct has no effect on synthesis. In some cases (such as 'after' clauses in signal assignments)                |
+|          |        |      | may cause a mismatch between and simulation.                                                                                    |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Mapper: Libraries have:
+        domain _default_: 625 combo usable cells and 160 sequential usable cells
+Multi-threaded constant propagation [1|0] ...
+Info    : Deleting instances not driving any primary outputs. [GLO-34]
+        : Deleting 2 hierarchical instances.
+Multi-threaded Virtual Mapping    (8 threads per ST process, 8 of 28 CPUs usable)
+==================================
+Stage : first_condense
+==================================
+  =================
+   Message Summary
+  =================
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+|   Id   |Sev  |Count |                                                            Message Text                                                              |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+| GLO-34 |Info |    1 |Deleting instances not driving any primary outputs.                                                                                   |
+|        |     |      |Optimizations such as constant propagation or redundancy removal could change the connections so a hierarchical instance does not     |
+|        |     |      | drive any primary outputs anymore. To see the list of deleted hierarchical instances, set the 'information_level' attribute to 2 or  |
+|        |     |      | above. If the message is truncated set the message attribute 'truncate' to false to see the complete list. To prevent this           |
+|        |     |      | optimization, set the 'delete_unloaded_insts' root/subdesign attribute to 'false' or 'preserve' instance attribute to 'true'.        |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Global mapping target info
+==========================
+Cost Group 'clock_in' target slack:   299 ps
+Target path end-point (Pin: STATE_reg[0]/d)
+
+
+State Retention Synthesis Status
+================================
+
+Category                        Flops   Percentage
+--------------------------------------------------
+Total instances                    50        100.0
+Excluded from State Retention      50        100.0
+    - Will not convert             50        100.0
+      - Preserved                   0          0.0
+      - Power intent excluded      50        100.0
+    - Could not convert             0          0.0
+      - Scan type                   0          0.0
+      - No suitable cell            0          0.0
+State Retention instances           0          0.0
+--------------------------------------------------
+
+PBS_Generic_Opt-Post - Elapsed_Time 4, CPU_Time 2.786455
+stamp 'PBS_Generic_Opt-Post' being created for table 'pbs_debug'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:17(00:02:27) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:19:14 (Jul02) |  474.9 MB | PBS_Generic-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:19(00:02:31) |  00:00:02(00:00:04) | 100.0(100.0) |   17:19:18 (Jul02) |  781.5 MB | PBS_Generic_Opt-Post
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 8 * 1   (id: pbs_debug, time_info v1.57)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+PBS_Generic-Postgen HBO Optimizations - Elapsed_Time 0, CPU_Time 0.0
+stamp 'PBS_Generic-Postgen HBO Optimizations' being created for table 'pbs_debug'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:17(00:02:27) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:19:14 (Jul02) |  474.9 MB | PBS_Generic-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:19(00:02:31) |  00:00:02(00:00:04) | 100.0(100.0) |   17:19:18 (Jul02) |  781.5 MB | PBS_Generic_Opt-Post
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:19(00:02:31) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:19:18 (Jul02) |  781.5 MB | PBS_Generic-Postgen HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 8 * 1   (id: pbs_debug, time_info v1.57)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+##>=================== Cadence Confidential (Generic-Logical) ==================                                                                              =
+##>=================== Cadence Confidential (Generic-Logical) ==================                                                                              =
+##>Main Thread Summary:
+##>-----------------------------------------------------------------------------                                                                              -----------
+##>STEP                           Elapsed       WNS       TNS     Insts      Are                                                                              a    Memory
+##>-----------------------------------------------------------------------------                                                                              -----------
+##>G:Initial                            0         -         -       337      240                                                                              1       474
+##>G:Setup                              0         -         -         -                                                                                       -         -
+##>G:Launch ST                          0         -         -         -                                                                                       -         -
+##>G:Design Partition                   0         -         -         -                                                                                       -         -
+##>G:Create Partition Netlists          0         -         -         -                                                                                       -         -
+##>G:Init Power                         0         -         -         -                                                                                       -         -
+##>G:Budgeting                          0         -         -         -                                                                                       -         -
+##>G:Derenv-DB                          0         -         -         -                                                                                       -         -
+##>G:Debug Outputs                      0         -         -         -                                                                                       -         -
+##>G:ST loading                         0         -         -         -                                                                                       -         -
+##>G:Distributed                        0         -         -         -                                                                                       -         -
+##>G:Timer                              0         -         -         -                                                                                       -         -
+##>G:Assembly                           0         -         -         -                                                                                       -         -
+##>G:DFT                                0         -         -         -                                                                                       -         -
+##>G:Const Prop                         0         -         -       316      220                                                                              1       781
+##>G:Misc                               4
+##>-----------------------------------------------------------------------------                                                                              -----------
+##>Total Elapsed                        4
+##>=============================================================================                                                                              ===========
+Info    : Done synthesizing. [SYNTH-2]
+        : Done synthesizing 'ps2_mouse' to generic gates.
+      flow.cputime  flow.realtime  timing.setup.tns  timing.setup.wns  snapshot
+UM:*                                                                   syn_gen
+@genus:root: 9>
