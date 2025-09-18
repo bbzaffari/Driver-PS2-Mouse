@@ -4,6 +4,8 @@ This project implements a PS/2 mouse driver using VHDL, developed as part of the
 
 The design focuses on reading PS/2 protocol data from a mouse, decoding button states, X/Y movement, sign, overflow, and parity errors, using a finite state machine (FSM) architecture.
 
+**For verification details, testing notes, and technical explanations, refer to the** [**project report***](/Report_ps2_driver.pdf)
+
 ## Features
 
 - Reads 33-bit PS/2 frames (start, data, parity, stop bits)
